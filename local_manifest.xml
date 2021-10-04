@@ -4,21 +4,15 @@
 <remote name="github"
         fetch="https://github.com" />
 
-<!-- Remove Some Project -->
- <remove-project name="device/generic/opengl-transport" />
-
 <!-- DT -->
- <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="derp" />
- <project name="jagaddhita/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="eleven" />
+ <project name="jagaddhita/dxu" path="device/xiaomi/ulysse" remote="github" revision="colt" />
+ <project name="jagaddhita/dxuc" path="device/xiaomi/ulysse-common" remote="github" revision="colt" />
 
 <!-- VT -->
- <project name="jagaddhita/proprietary_vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="eleven" />
- <project name="jagaddhita/proprietary_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="eleven" />
+ <project name="jagaddhita/vxu" path="vendor/xiaomi/ulysse" remote="github" revision="colt" />
+ <project name="jagaddhita/vxuc" path="vendor/xiaomi/ulysse-common" remote="github" revision="colt" />
   
 <!-- KT -->
  <project name="jagaddhita/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
-
-<!-- HX -->
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
 </manifest>
