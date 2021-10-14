@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- DT -->
+ <project name="delmontaro/dxv" path="device/xiaomi/vayu" remote="github" clone-depth="1" revision="yahah" />
+
+<!-- VT -->
+ <project name="NusantaraROM-Devices/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" clone-depth="1" revision="12" />
+  
+<!-- KT -->
+ <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" clone-depth="1" revision="eleven" />
+
+</manifest>
